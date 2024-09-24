@@ -1,4 +1,17 @@
-﻿
+﻿//Задание 1. Сначала сделал отдельно. Решил объединить
+Console.Write("Напишите Фамилию полностью пожалуйста");
+
+string? surname = Console.ReadLine();
+Console.Write("Напишите ваше имя пожалуйста");
+string? name = Console.ReadLine();
+
+Console.Write("Напишите ваше отчество");
+string? Dsurname = Console.ReadLine();
+
+Console.WriteLine($"Меня зовут {surname} {name} {Dsurname}");
+
+//Задание 2
+
 Console.Write("Введите первое значение");
 string? FirstNumb = Console.ReadLine();
 int FirstNumber = int.Parse(FirstNumb);
@@ -11,7 +24,7 @@ string? MathSumbol = Console.ReadLine();
 
 //string Math = "+ - * /";
 //int MathNumber = int.Parse(Math);
-switch (MathSumbol)
+switch (Math)
 {
     case "+":
         Console.WriteLine($" {FirstNumber + SecondNumber}");
