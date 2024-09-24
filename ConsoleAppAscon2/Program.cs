@@ -24,7 +24,7 @@ string? MathSumbol = Console.ReadLine();
 
 //string Math = "+ - * /";
 //int MathNumber = int.Parse(Math);
-switch (Math)
+switch (MathSumbol)
 {
     case "+":
         Console.WriteLine($" {FirstNumber + SecondNumber}");
