@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppAscon2", "ConsoleAppAscon2\ConsoleAppAscon2.csproj", "{33D5420B-D2B8-413A-9978-9B4D4A92A722}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppAscon2", "ConsoleAppAscon2\ConsoleAppAscon2.csproj", "{33D5420B-D2B8-413A-9978-9B4D4A92A722}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson3Ascon", "Lesson3Ascon\Lesson3Ascon.csproj", "{1797AA43-4BD2-4342-825B-98F4A82EAB36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{33D5420B-D2B8-413A-9978-9B4D4A92A722}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33D5420B-D2B8-413A-9978-9B4D4A92A722}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33D5420B-D2B8-413A-9978-9B4D4A92A722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1797AA43-4BD2-4342-825B-98F4A82EAB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1797AA43-4BD2-4342-825B-98F4A82EAB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1797AA43-4BD2-4342-825B-98F4A82EAB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1797AA43-4BD2-4342-825B-98F4A82EAB36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
